@@ -83,7 +83,7 @@ input#message {
 .footer {
     background-color: #1e2831;
     padding-top: 20px;
-    color: white;
+    color: #bbb8b8;
 }
 
 .footer .list-group.text-center {
@@ -93,7 +93,7 @@ input#message {
 .footer .list-group-item {
     background-color: #1e2831;
     border: none;
-    color: white;
+    color: #bfbbbb;
     text-decoration: none;
     font-size: 15px;
 }
@@ -121,7 +121,7 @@ input#message {
     border-radius: 50%;
     height: 40px;
     width: 41px;
-    color: #f0ebf5;
+    color: #bfbbbb;
     background-color: #1e2831;
     text-decoration: none;
 }
