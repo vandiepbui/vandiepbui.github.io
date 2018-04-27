@@ -1,0 +1,159 @@
+{margin:0; padding:0;}
+
+nav.navbar.navbar-default {
+    height: 75px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    background-color: #3e2a52;
+}
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+a.navbar-brand {
+    padding: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #199EC5;
+}
+.nentim {
+    background-color: #3e2a52;
+    color: white;
+    padding: 20px 0;
+}
+
+.nentim h2 {
+    font-size: 30px;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.ngoisao {
+    width: 15%;
+    margin: auto;
+    border-top: 5px solid;
+    margin-top: 20px;
+}
+
+.ngoisao i {
+    font-size: 26px;
+    background-color: #3e2a52;
+    padding: 5px 8px;
+    position: relative;
+    top: -20px;
+}
+.nentim p {
+    font-size: 17px;
+    font-family: inherit;
+}
+.nentrang {
+    padding: 20px 0;
+}
+
+.nentrang h2 {
+    font-size: 30px;
+    font-family: inherit;
+    color: #3e2a52;
+    text-transform: uppercase;
+}
+
+.nentrang .ngoisao {
+    border-color: #3e2a52;
+}
+
+.nentrang .ngoisao i {
+    color: #3e2a52;
+    background-color: white;
+}
+
+input#message {
+    height: 120px;
+}
+
+.nentim02 button.btn.btn-primary {
+    background-color: white;
+    color: #3e2a52;
+    font-weight: bold;
+}
+.footer {
+    background-color: #1e2831;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer .list-group.text-center {
+    background-color: #1e2831;
+}
+
+.footer .list-group-item {
+    background-color: #1e2831;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer .list-group a {
+    text-decoration: none;
+}
+
+.footer .list-group-item:hover {
+    color: #3e2a52;
+    transition: 0.4s;
+}
+
+.footer ul li {
+    list-style: none;
+    float: none;
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.footer ul a {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 41px;
+    color: #f0ebf5;
+    background-color: #1e2831;
+    text-decoration: none;
+}
+.footer ul {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.footer ul li a:hover {
+    background-color: #3e2a52;
+    transition: 0.4s;
+}
+.footer p {
+    padding-top: 10px;
+}
+.footer02 {
+    background-color: #1c3842;
+    padding: 10px;
+    color: #bfb3b3;
+}
+
+.footer02 p {
+    font-size: 13px;
+    margin: 0;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #fff;
+    background-color: #1990bf;
+}
