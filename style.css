@@ -157,3 +157,9 @@ input#message {
     color: #fff;
     background-color: #1990bf;
 }
+
+a.fa-footer:hover {
+    -webkit-transform: rotateZ(360deg);
+      -moz-transform: rotateZ(360deg);
+      transform: rotateZ(360deg);
+}
