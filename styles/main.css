@@ -7274,3 +7274,7 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+.title.name {
+    font-family: initial!important;
+}
