@@ -1,0 +1,436 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 100px auto 100px;
+}
+
+/* Create three unequal columns that floats next to each personality */
+.column {
+    float: left;
+    padding: 10px;
+    height: 1750px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 1%;
+}
+
+.middle {
+  width: 32%;
+}
+    
+.right {
+  width: 65%;
+  padding-top: 20px;
+  padding-right: 57px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cacmuc{
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: -30px;
+    margin-left: 57px!important;
+}
+
+.tieudephai {
+    font-family: 'Montserrat', sans-serif !important;
+   text-align: center;
+    vertical-align: middle;
+}
+
+
+/*css for icons*/
+.custom-icon {
+  background: #336699 ;
+  border-radius: 50%;
+  border: 2.5px solid #E5E5E5;
+  color: #E5E5E5;
+  display: table-cell;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.icon-wrapper {
+  display: inline;
+}
+
+/*end css for icon*/
+
+/*css for small icons*/
+.custom-small-icon {
+  background: #336699 ;
+  border-radius: 50%;
+  border: 2.5px solid #E5E5E5;
+  color: #E5E5E5;
+  display: table-cell;
+  font-size: 12px;
+  height: 12px;
+  width: 12px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.small-icon-wrapper {
+  display: inline;
+  float: left;
+}
+
+/*end css for small icons*/
+    
+#info {
+    height: fit-content;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 0px;
+}
+
+#info img.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #DDD;
+}
+    
+
+#info h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+    color: #336699;
+}
+
+#info p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#info .quote {
+    line-height: 22px;
+    text-align: center;
+}
+
+#info span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#info cite i {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+cite {
+    line-height: 39px;
+    margin-right: 3%;
+}
+
+
+hr {margin-left: 32%;}
+
+
+#contact {
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+#contact p i {
+    line-height: 1;
+    font-size: 25px;
+    color: #336699;
+    margin-left: -30px;
+    
+}
+
+#contact span {
+    line-height: 1.5;
+    font-size: 17px;
+}
+p.ndtext {
+    font-size: 17px;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+
+#study {
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#study p i {
+    margin-left: -100px;
+    padding-top:5px;
+    line-height: 1;
+    font-size: 25px;
+    color: #336699;
+}
+#study a {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#languages {
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#languages p i{
+    margin-left: -90px;
+    line-height: 1;
+    font-size: 25px;
+    color: #336699; 
+}
+
+#languages a {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#skill{
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.nutskill {
+    margin-left: 110px;
+}
+
+#skill p i{
+    margin-left: -110px;
+    line-height: 1;
+    font-size: 25px;
+    color: #336699; 
+}
+#skill a {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#skill a i {
+    font-size: 15px;
+    color: #666666;
+}
+
+#skill.nut {
+    margin-right: 0px;
+}
+
+#skill span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#skill cite i {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 8px;
+}
+    
+#goal{
+    width: 100%;
+    height: fit-content;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-right: 0px;
+}
+
+#goal p {
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 22px;
+    margin-bottom: -5px;
+    
+}
+
+#goal a {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-left: 10px;
+    
+}
+#exp {
+    width: 100%;
+    height: fit-content;
+    margin-left: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+#exp .exp2 {
+    margin-top: 0px;
+}
+
+#exp .vl {
+    border-left: 2px solid #336699;
+    height: 84px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+#exp p {
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 22px;
+    margin-bottom: -8px;
+}
+
+#exp p i {
+   line-height: 1;
+    font-size: 28px;
+    color: #336699; 
+}
+
+#exp a {
+    font-size: 17px;
+    
+}
+#activities {
+    width: 100%;
+    height: fit-content;
+    margin-left: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+#activities p {
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 22px;
+    margin-bottom: -8px;
+}
+
+#activities a {
+    font-size: 17px;
+}
+
+#tools {
+    width: 100%;
+    height: fit-content;
+    margin-left: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+#tools .tieude {
+    font-size: 18px;
+    margin-bottom: -7px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-left: 23px;
+}
+
+#tools table {
+    margin-left: 10px;
+}
+
+#tools table th {
+    text-align: left;
+    padding: 0 40px 0 0;
+}
+
+#tools table td {
+    text-align: left;
+    padding: 0 40px 0 0px;
+}
+
+#personality {
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+
+#personality p {
+   
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 22px;
+    margin-bottom: -8px;
+}
+
+#personality a {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#interests {
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+#interests .tieude {
+    font-size: 18px;
+    margin-bottom: -7px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-left: 23px;
+}
+
+#interests a {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.icon-wrapper.iconTrai {
+    margin-left: -2%;
+}
+
+p.cacmuc.cacmucTrai {
+    margin-left: 16%!important;
+}
+
+p.cacmuc.cacMuc {
+    margin-bottom: -5px;
+}
+
+p.ndtext.nd_text {
+    margin-top: -5px;
+}
+
+p.ndtext.nd_text02 {
+    margin-top: -5px;
+}
+
+table {
+    margin-top: -7px;
+    width: 85%;
+}
+
+table.table {
+    margin-top: -23px;
+}
+
+//end
