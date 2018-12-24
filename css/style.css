@@ -2,30 +2,29 @@
     box-sizing: border-box;
 }
 
-html,body   {
-    width: 90%;
-    margin-left: 100px ;
+body {
+    margin: 50px 100px auto 100px;
 }
 
-/* Create three unequal columns that floats next to each other */
+/* Create three unequal columns that floats next to each personality */
 .column {
     float: left;
+    padding: 10px;
     height: 2050px; /* Should be removed. Only for demonstration */
 }
 
 .left {
-  width: 2%;
+  width: 1%;
 }
 
 .middle {
-    width: 32%;
-    text-align: justify!important;
-    padding-right: 5px;
+  width: 32%;
 }
     
 .right {
-    width: 65%;
-    text-align: justify!important;
+  width: 65%;
+  padding-top: 20px;
+  padding-right: 57px;
 }
 
 /* Clear floats after the columns */
