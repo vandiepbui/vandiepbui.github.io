@@ -10,7 +10,7 @@ body {
 .column {
     float: left;
     padding: 10px;
-    height: 2050px; /* Should be removed. Only for demonstration */
+    height: 1750px; /* Should be removed. Only for demonstration */
 }
 
 .left {
@@ -22,9 +22,10 @@ body {
 }
     
 .right {
-  width: 65%;
-  padding-top: 20px;
-  padding-right: 20px;
+    width: 65%;
+    padding-top: 20px;
+    padding-right: 57px;
+    text-align: justify;
 }
 
 /* Clear floats after the columns */
@@ -36,25 +37,20 @@ body {
 
 .cacmuc{
     font-family: 'Montserrat', sans-serif !important;
-    display: inline;
-    font-size: 16px;
+    margin-top: -30px;
+    margin-left: 57px!important;
 }
 
 .tieudephai {
     font-family: 'Montserrat', sans-serif !important;
+   text-align: center;
     vertical-align: middle;
-    font-size: 18px;
-   
-}
-
-i {
-    padding-right: 5px!important;
 }
 
 
 /*css for icons*/
 .custom-icon {
-  background: #336699;
+  background: #336699 ;
   border-radius: 50%;
   border: 2.5px solid #E5E5E5;
   color: #E5E5E5;
@@ -65,6 +61,7 @@ i {
   padding: 7px;
   text-align: center;
   vertical-align: middle;
+
 }
 .icon-wrapper {
   display: inline;
@@ -95,16 +92,15 @@ i {
 /*end css for small icons*/
     
 #info {
+    height: fit-content;
     width: 100%;
-    height: 250px;
     margin-top: 10px;
-    
-    
+    padding-right: 0px;
 }
 
 #info img.avatar {
     display: block;
-    margin-left: 27%;
+    margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     box-sizing: border-box;
@@ -114,38 +110,51 @@ i {
     
 
 #info h4 {
-
-font-family: 'Playfair Display', serif;
-
-font-size: 22px;
-
-text-align: center;
-
-margin: 15px 0px 0px 7px;
-
-color: #336699;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+    color: #336699;
 }
 
 #info p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
-    margin-top: -5px;
+    margin-top: -20px;
+}
+
+#info .quote {
+    line-height: 22px;
+    text-align: center;
+}
+
+#info span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#info cite i {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+cite {
+    line-height: 39px;
+    margin-right: 3%;
 }
 
 
-#contact hr {
-    margin-left: 33px;
-}
+hr {margin-left: 32%;}
 
 
 #contact {
-    height: 191px;
-    width: 96%;
-    margin-top: 14px;
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
     margin-left: 10px;
 }
-
 
 
 #contact p i {
@@ -158,30 +167,24 @@ color: #336699;
 
 #contact span {
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 17px;
+}
+p.ndtext {
+     font-size: 18px!important;
+    line-height: 1.5;
+    font-family: 'EB Garamond', serif!important;
+}
 }
 
 #study {
-    height: -webkit-fit-content: ;
-    -moz-fit-content: ;
-    -o-fit-content: ;
-    fit-content: ;
-    width: 96%;
-    margin-top: 22px;
-     margin-left: 10px;
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px!important;
 }
-
-#study.ndtext   {
-    width: 96%;
-}
-
-#study hr {
-    margin-left: 33px;
-}
-
-
 
 #study p i {
+    margin-left: -100px;
     padding-top:5px;
     line-height: 1;
     font-size: 25px;
@@ -189,25 +192,33 @@ color: #336699;
 }
 #study a {
     line-height: 1.5;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 #languages {
-    height: 94px;
-    width: 96%;
-    margin-top: 4px;
-     margin-left: 10px;
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
-span.text {
-    font-size: 19px;
+#languages p i{
+    margin-left: -90px;
+    line-height: 1;
+    font-size: 25px;
+    color: #336699; 
+}
+
+#languages a {
+    line-height: 1.5;
+    font-size: 17px;
 }
 
 #skill{
-    height: 314px;
-    width: 96%;
-    margin-top: 17px;
-     margin-left: 10px; 
+    height: fit-content;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .nutskill {
@@ -233,15 +244,28 @@ span.text {
 #skill.nut {
     margin-right: 0px;
 }
+
+#skill span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#skill cite i {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 8px;
+}
     
 #goal{
     width: 100%;
     height: fit-content;
-    padding: 0 28px 0 23px;
+    margin-left: 10px;
     margin-top: 5px;
+    padding-right: 0px;
 }
 
-#goal h6 {
+#goal p {
     text-align: left;
     vertical-align: middle;
     margin-left: 22px;
@@ -249,31 +273,22 @@ span.text {
     
 }
 
-#goal hr {
-    background-color: #336699;
-    margin-left: 10px;
-}
-
 #goal a {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.5;
     margin-left: 10px;
+    
 }
 #exp {
     width: 100%;
     height: fit-content;
-    margin-top: -34px;
+    margin-left: 10px;
+    margin-top: 15px;
     line-height: 1.5;
-    padding: 0 28px 0 23px;
 }
 
 #exp .exp2 {
-    margin-top: 10px;
-}
-
-#exp hr {
-    background-color: #336699;
-    margin-left: 10px;
+    margin-top: 0px;
 }
 
 #exp .vl {
@@ -284,7 +299,7 @@ span.text {
     margin-top: 20px;
 }
 
-#exp h6 {
+#exp p {
     text-align: left;
     vertical-align: middle;
     margin-left: 22px;
@@ -298,35 +313,18 @@ span.text {
 }
 
 #exp a {
-    font-size: 19px;
+    font-size: 17px;
+    
 }
-
-#exp hr {
-    background-color: #336699;
-}
-
 #activities {
     width: 100%;
     height: fit-content;
-    margin-top: -30px;
-    line-height: 1.5;
-    padding: 0 28px 0 23px;
-}
-
-#activities hr {
-    background-color: #336699;
     margin-left: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
 }
 
-#activities .vl {
-    border-left: 2px solid #336699;
-    height: 109px;
-    position: absolute;
-    margin-left: 5px;
-    margin-top: 20px;
-}
-
-#activities h6 {
+#activities p {
     text-align: left;
     vertical-align: middle;
     margin-left: 22px;
@@ -334,40 +332,26 @@ span.text {
 }
 
 #activities a {
-    font-size: 19px;
+    font-size: 17px;
 }
-
-
-#activities hr {
-    background-color: #336699;
-}
-
 
 #tools {
     width: 100%;
-    height: 162px;
+    height: fit-content;
     margin-left: 10px;
-    margin-top: 22px;
+    margin-top: 15px;
     line-height: 1.5;
-    padding: 0 28px 0 23px;
-}
-
-#tools hr {
-    background-color: #336699;
-    margin-left: 3px;
-    width: 230px;
 }
 
 #tools .tieude {
     font-size: 18px;
-    margin-bottom: -9px;
+    margin-bottom: -7px;
     font-family: 'Montserrat', sans-serif !important;
-    margin-left: 13px;
+    margin-left: 23px;
 }
 
 #tools table {
     margin-left: 10px;
-    font-size: 19px;
 }
 
 #tools table th {
@@ -378,33 +362,20 @@ span.text {
 #tools table td {
     text-align: left;
     padding: 0 40px 0 0px;
+    font-size: 18px!important;
+    font-family: 'EB Garamond', serif!important;
 }
 
-
-#other {
-    height: 234px;
+#personality {
+    height: fit-content;
     width: 100%;
-    margin-top: -55px;
+    margin-top: 15px;
+    margin-left: 10px;
     line-height: 1.5;
-    padding: 0 28px 0 23px;
+    padding-right: 20px;
 }
 
-#other h6 {
-    margin-left: 25px;
-}
-
-#other hr {
-    
-    background-color: #336699;
-        
-    margin-left: 12px;
-        
-    margin-top: -43px;
-        
-    width: 230px;
-}
-
-#other p {
+#personality p {
    
     text-align: left;
     vertical-align: middle;
@@ -412,45 +383,70 @@ span.text {
     margin-bottom: -8px;
 }
 
-#other a {
+#personality a {
     line-height: 1.5;
-    font-size: 19px;
+    font-size: 17px;
 }
 
-/*CSS FOR INTERESTS*/
 #interests {
-    height: 234px;
+    height: fit-content;
     width: 100%;
-    margin-top: -75px;
+    margin-top: 15px;
+    margin-left: 10px;
     line-height: 1.5;
-    padding: 0 28px 0 23px;
+    padding-right: 20px;
 }
-
-#interests h6 {
-    margin-left: 25px;
-}
-
-#interests hr {
-    
-background-color: #336699;
-    
-margin-left: 12px;
-    
-margin-top: -43px;
-    
-width: 230px;
-}
-
-#interests p {
-   
-    text-align: left;
-    vertical-align: middle;
-    margin-left: 22px;
-    margin-bottom: -8px;
+#interests .tieude {
+    font-size: 18px;
+    margin-bottom: -7px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-left: 23px;
 }
 
 #interests a {
     line-height: 1.5;
-    font-size: 19px;
+    font-size: 17px;
 }
-        /* end */
+
+.icon-wrapper.iconTrai {
+    margin-left: -2%;
+}
+
+p.cacmuc.cacmucTrai {
+    margin-left: 16%!important;
+}
+
+p.cacmuc.cacMuc {
+    margin-bottom: -5px;
+}
+
+p.ndtext.nd_text {
+    margin-top: -5px;
+}
+
+p.ndtext.nd_text02 {
+    margin-top: -5px;
+}
+
+table {
+    margin-top: -7px;
+    width: 85%;
+}
+
+table.table {
+    margin-top: -23px;
+}
+
+a {
+    font-size: 18px!important;
+    line-height: 1.5;
+    font-family: 'EB Garamond', serif!important;
+    text-align: justify;
+}
+
+
+div#study {
+    margin-left: 15px;
+}
+
+//end
