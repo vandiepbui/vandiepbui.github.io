@@ -10,7 +10,7 @@ body {
 .column {
     float: left;
     padding: 10px;
-    height: 1750px; /* Should be removed. Only for demonstration */
+    height: 1850px; /* Should be removed. Only for demonstration */
 }
 
 .left {
